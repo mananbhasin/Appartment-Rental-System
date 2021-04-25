@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color:#F6D491;
+    background-image: url(../images/sign-up/sign-up-bg.svg);
+}
+
+/* Global */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+header {
+    background: #ECAF67;
+    box-shadow: 20px 10px 10px 2px rgba(0, 0, 0, 0.25);
+    padding-top: 30px;
+    min-height: 70px;
+    font-family: "Advent Pro", sans-serif;
+    text-transform: uppercase;
+}
+
+header #logo {
+    float: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 55px;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px;
+}
+header #logo h1 {
+    margin: 0;
+}
+
+/* Sign-Up Section */
+
+section {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+#sign-up {
+    margin-top: 50px;
+}
+
+#si-1 {
+    width: 1500px;
+}
+
+#sign-up h1{
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 10px;
+    position: relative;
+    left: 75px;
+}
+
+#sign-up #line1{
+    max-width: 95px;
+    position: relative;
+    left: 92px;
+    height: 2.5px;
+    margin-bottom: 35px;
+}
+
+#sign-up .input-field {
+    margin: 15px 0 30px;
+}
+
+#sign-up .input-field label {
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#sign-up .input-field input{
+    float: right;
+    background: #F6D491;
+    border: none;
+    border-bottom: 1px solid #000000;
+    width: 300px;
+    height: 30px;
+    position: relative;
+    right: 225px;
+    bottom: 5px;
+}
+
+#sign-up .input-field #name {
+    background: url(../images/sign-up/name-icon.svg) no-repeat;
+    background-size: 16px;
+    background-position: 275px 5px;
+}
+#sign-up .input-field #number {
+    background: url(../images/sign-up/number-icon.svg) no-repeat;
+    background-size: 16px;
+    background-position: 275px 5px;
+}
+#sign-up .input-field #email {
+    background: url(../images/sign-up/mail-icon.svg) no-repeat;
+    background-size: 16px;
+    background-position: 275px 5px;
+}
+#sign-up .input-field #password {
+    background: url(../images/sign-up/lock-icon.svg) no-repeat;
+    background-size: 16px;
+    background-position: 275px 5px;
+}
+#sign-up .input-field #location {
+    background: url(../images/sign-up/location-icon.svg) no-repeat;
+    background-size: 16px;
+    background-position: 275px 5px;
+}
+
+#sign-up #si-2 img {
+    width: 400px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+button {
+    padding: 5px 75px;
+    background: rgba(243, 176, 115, 0.7);
+    border-radius: 15px;
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    position: relative;
+    top: 175px;
+    right: 375px;
+}   

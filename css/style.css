@@ -1,0 +1,456 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color:#f4f4f4;
+}
+
+/* Global */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: #F6D491;
+    box-shadow: 20px 10px 10px 2px rgba(0, 0, 0, 0.25);
+    padding-top: 30px;
+    min-height: 70px;
+    font-family: "Advent Pro", sans-serif;
+    text-transform: uppercase;
+}
+
+header #logo {
+    float: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 55px;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px;
+}
+header #logo h1 {
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Advent Pro;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+}
+header a:hover {
+    color: #c03737;
+    font-weight: bold;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+/* Home Page - Main Content */
+
+#home {
+    background: url(../images/home-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#home-1 h1{
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    color: #645959;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 75px;
+}
+
+#home-1 img {
+    max-width: 400px;
+    position: relative;
+    left: 50px;
+    bottom: 20px;
+}
+
+#home-1 h2 {
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    position: relative;
+    left: 25px;
+    bottom: 25px;
+}
+
+/* Buttons */
+
+#home-buttons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    max-width: 700px;
+}
+
+#home-buttons button {
+    width: 200px;
+    font-family: "Advent Pro";
+    font-size: 25px;
+    line-height: 50px;
+    text-align: left;
+    padding-left: 25px;
+    font-weight: 600;
+    background: rgba(243, 207, 135, 0.9);
+    border-radius: 15px;
+}
+
+#home-buttons button img {
+    position: relative;
+    left: 20px;
+    top: 5px;
+}
+#home-buttons button:first-child img {
+    left: 40px;
+    top: 7px;
+}
+
+#home-2 h2 {
+    font-family: "Aleo";
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 100px;
+    position: relative;
+    left: 25px;
+    top: 18px;
+}
+
+/* About Us */
+
+#about-us {
+    position: relative;
+    bottom: 25px;
+}
+
+.ab {
+    position: relative;
+    top: 0px;
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #F6D491;
+    border-radius: 45px;
+}
+
+.ab-1 h1{
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+}
+.ab-1 p{
+    padding: 0 20px 0 30px;
+}
+
+.ab-2 img {
+    width: 175px;
+    margin-right: 20px;
+}
+
+/* Browse Apartments */
+
+.apartments{
+    width: 80%;
+    margin: auto;
+}
+
+#browse .br-1{
+    text-align: center;
+}
+
+#browse .br-1 h1{
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    color: #643232;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 75px;
+}
+
+#browse .br-1 img {
+    max-width: 380px;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+}
+
+#browse .br-1 h2 {
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    position: relative;
+    bottom: 35px;
+}
+
+#browse .br-1 p {
+    font-family: "Anonymous Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    position: relative;
+    bottom: 25px;
+    margin-bottom: 25px;
+}
+
+/* Appartment Thumbnails */
+
+#browse .br-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#browse .br-2 .thumbnails{
+    width: 40%;
+}
+
+#browse .br-2 img {
+    width: 100%;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
+
+#browse .thumbnails a {
+    text-decoration: underline;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #643232;
+}
+
+#browse .thumbnails p {
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: normal;
+    position: relative;
+    bottom: 10px;
+    margin-bottom: 30px;
+}
+
+#browse .apartment-button {
+    display: flex;
+    justify-content: center;
+}
+
+#browse .apartments button{
+    position: relative;
+    bottom: 15px;
+    font-size: 30px;
+    line-height: 45px;
+    font-family: "Advent Pro";
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 300px;
+    background: rgba(243, 207, 135, 0.9);
+    border-radius: 15px;
+}
+
+#browse .apartments button img {
+    width: 25px;
+    float: right;
+    margin-right: 20px;
+    position: relative;
+    top: 7px;
+}
+
+/* Author Section */
+
+#authors {
+    background: url(../images/Rectangle\ 11.png) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 50px;
+}
+
+#authors .au-1 {
+    text-align: center;
+}
+
+#authors .au-1 h1 {
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    color: #643232;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    word-spacing: 20px;
+}
+
+#authors .au-1 img {
+    max-width: 425px;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+}
+
+#authors .au-1 h2 {
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    position: relative;
+    bottom: 45px;
+}
+
+
+#authors .au-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+#authors .au-2 img {
+    max-width: 250px;
+    display: inline-block;
+    border-radius: 150px;
+}
+
+#authors .au-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+}
+#authors .au-3 .desc {
+    max-width: 250px;
+    padding: 10px;
+    background: rgba(246, 212, 145, 0.9);
+    border-radius: 30px;
+}
+
+#authors .au-3 .desc h1 {
+    font-family: "Advent Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+#authors .au-3 .desc p {
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+/* Footer */
+
+footer {
+    background: #F6D491;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h1 {
+    font-family: "Advent Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    position: relative;
+    left: 10px;
+}
+
+#follow #social-icons {
+    position: relative;
+    bottom: 10px;
+    padding: 15px;
+    background: #C4C4C4;
+    border-radius: 20px;
+}
+#follow #social-icons img {
+    width: 40px;
+    margin-right: 5px;
+}
+
+#contact-us{
+    background: #C4C4C4;
+    border-radius: 16px;
+    padding: 18px 15px 0 15px;
+    height: 100px;
+    position: relative;
+    bottom: 10px;
+}
+#contact-us p{
+    float: right;
+    margin-left: 15px;
+    position: relative;
+    bottom: 15px;
+}
+
+#support {
+    background: #C4C4C4;
+    border-radius: 16px;
+    padding: 28px 15px 0 15px;
+    height: 100px;
+    position: relative;
+    bottom: 10px;
+}
+#support img{
+    width: 35px;
+}
+#support p{
+    float: right;
+    margin-left: 15px;
+    position: relative;
+    bottom: 15px;
+}

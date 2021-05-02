@@ -132,6 +132,7 @@ header nav {
     font-weight: 600;
     background: rgba(243, 207, 135, 0.9);
     border-radius: 15px;
+    cursor: pointer;
 }
 
 #home-buttons button img {
@@ -295,6 +296,7 @@ header nav {
     width: 300px;
     background: rgba(243, 207, 135, 0.9);
     border-radius: 15px;
+    cursor: pointer;
 }
 
 #browse .apartments button img {

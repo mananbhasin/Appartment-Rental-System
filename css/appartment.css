@@ -71,7 +71,7 @@ header .container > h1 {
 
 .ap-1 img {
     margin: 10px 0;
-    width: 300px;
+    width: 315px;
     position: relative;
     right: 50px;
 }
@@ -79,7 +79,6 @@ header .container > h1 {
 .ap-2 {
     display: flex;
     flex-direction: row;
-
 }
 
 .ap-2-1 {
@@ -106,6 +105,11 @@ header .container > h1 {
     left: 130px;
 }
 
+.ap-2-1 .lol {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
 #details a, #download {
     position: absolute;
     bottom: 5%;
@@ -113,6 +117,13 @@ header .container > h1 {
 
 #download {
     right: 20%;
+}
+
+#details a {
+    text-decoration: underline;
+    font-size: 17px;
+    left: 38.5%;
+    bottom: 7.5%;
 }
 
 .ap-2-2 {
@@ -142,5 +153,15 @@ header .container > h1 {
     background: rgba(243, 207, 135, 0.9);
     border-radius: 15px;
     cursor: pointer;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+}
+
+#facility {
+    position: relative;
+    left: 35%;
+}
+#facility i {
+    margin-right: 20px;
+    margin-bottom: 15px;
+    margin-left: 20px;
 }

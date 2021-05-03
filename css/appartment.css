@@ -72,6 +72,7 @@ header .container > h1 {
 .ap-1 img {
     margin: 10px 0;
     width: 315px;
+    border-radius: 10px;
     position: relative;
     right: 50px;
 }
